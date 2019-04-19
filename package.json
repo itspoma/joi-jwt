@@ -1,0 +1,27 @@
+{
+  "name": "joi-jwt",
+  "version": "1.0.0",
+  "description": "JWT Token validation rule for Joi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itspoma/joi-jwt.git"
+  },
+  "author": "Roman Rodomansky <roman@ralabs.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itspoma/joi-jwt/issues"
+  },
+  "keywords": [
+    "joi",
+    "extention",
+    "jwt"
+  ],
+  "homepage": "https://github.com/itspoma/joi-jwt#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  }
+}
