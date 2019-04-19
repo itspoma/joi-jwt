@@ -1,6 +1,6 @@
 {
   "name": "joi-jwt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JWT Token validation rule for Joi",
   "main": "index.js",
   "scripts": {
