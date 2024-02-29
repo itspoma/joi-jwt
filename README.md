@@ -12,7 +12,7 @@ Joi extensions for JWT Token rules.
 
 ```js
 const JoiBase = require('joi');
-const Joi = JoiBase.extend(require('joi-jwt'));
+const Joi = JoiBase.any().extend(require('joi-jwt'));
 
 const schema = Joi.jwt().valid({secret: 'secret-key'}).required();
 
